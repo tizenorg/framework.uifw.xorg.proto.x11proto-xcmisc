@@ -1,0 +1,24 @@
+Source: x11proto-xcmisc
+Section: x11
+Priority: optional
+Maintainer: YoungHoon Jung <yhoon.jung@samsung.com>, SangJin Lee <lsj119@samsung.com>, Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>, Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: SooChan Lim <sc1.lim@samsung.com>, David Nusinow <dnusinow@debian.org>, Andres Salomon <dilinger@debian.org>, Julien Cristau <jcristau@debian.org>
+Build-Depends: debhelper (>= 5.0.0), automake, xutils-dev (>= 1:7.4+4)
+Standards-Version: 3.8.3
+Vcs-Git: git://git.debian.org/git/pkg-xorg/proto/x11proto-xcmisc
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/proto/x11proto-xcmisc.git
+
+Package: x11proto-xcmisc-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: X11 XC-Miscellaneous extension wire protocol
+ This package provides development headers describing the wire protocol
+ for the XC-MISC extension, used to get details of XID allocation within
+ the server.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ .
+ This package is built from the X.org xcmiscproto proto module.
