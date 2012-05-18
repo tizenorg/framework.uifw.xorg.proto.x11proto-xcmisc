@@ -16,7 +16,7 @@ Description: %{summary}
 
 
 %prep
-%setup -q -n xcmiscproto-%{version}
+%setup -q -n %{name}-%{version}
 
 %build
 
