@@ -6,7 +6,7 @@ Release:    0
 Group:      Development/System
 License:    MIT
 URL:        http://www.x.org
-Source0:    http://xorg.freedesktop.org/releases/individual/proto/xcmiscproto-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.gz
 Source1001: packaging/xorg-x11-proto-xcmiscproto.manifest 
 Provides:   xcmiscproto
 BuildRequires: pkgconfig(xorg-macros)
